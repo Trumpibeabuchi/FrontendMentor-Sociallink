@@ -1,0 +1,21 @@
+body{
+    background: hsl(0, 0%, 8%);
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 15px;
+    font-size: 14;
+}

@@ -1,0 +1,47 @@
+img {
+    border-radius: 50%;
+    width: 80px
+}
+
+.name, .location {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name{
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+} 
+
+.location{
+    margin-top: 5px;
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.skill{
+    color: white;
+    font-size: 14px;
+}
+
+button{
+    width: 320px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color:  white;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
